@@ -1,0 +1,23 @@
+[
+  {
+    "name": "wishlist",
+    "path": "/wishlist",
+    "component": "/Users/nauramardhiyah/Documents/AZMI/assesment-evermos/pages/wishlist.vue",
+    "chunkName": "pages/wishlist",
+    "_name": "_c51bc9c0"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/nauramardhiyah/Documents/AZMI/assesment-evermos/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_4202c407"
+  },
+  {
+    "name": "brand-id",
+    "path": "/:brand/:id?",
+    "component": "/Users/nauramardhiyah/Documents/AZMI/assesment-evermos/pages/_brand/_id.vue",
+    "chunkName": "pages/_brand/_id",
+    "_name": "_95c11964"
+  }
+]

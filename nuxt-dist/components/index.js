@@ -1,8 +1,8 @@
-export { default as Card } from '../../components/Card.vue'
-export { default as Skeleton } from '../../components/Skeleton.vue'
-export { default as Slider } from '../../components/Slider.vue'
-export { default as BaseFooter } from '../../components/base/Footer.vue'
-export { default as BaseHeader } from '../../components/base/Header.vue'
+export const Card = () => import('../../components/Card.vue' /* webpackChunkName: "components/card" */).then(c => wrapFunctional(c.default || c))
+export const Skeleton = () => import('../../components/Skeleton.vue' /* webpackChunkName: "components/skeleton" */).then(c => wrapFunctional(c.default || c))
+export const Slider = () => import('../../components/Slider.vue' /* webpackChunkName: "components/slider" */).then(c => wrapFunctional(c.default || c))
+export const BaseFooter = () => import('../../components/base/Footer.vue' /* webpackChunkName: "components/base-footer" */).then(c => wrapFunctional(c.default || c))
+export const BaseHeader = () => import('../../components/base/Header.vue' /* webpackChunkName: "components/base-header" */).then(c => wrapFunctional(c.default || c))
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

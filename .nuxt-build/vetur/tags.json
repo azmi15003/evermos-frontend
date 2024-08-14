@@ -1,0 +1,17 @@
+{
+  "Card": {
+    "description": "Auto imported from components/Card.vue"
+  },
+  "Skeleton": {
+    "description": "Auto imported from components/Skeleton.vue"
+  },
+  "Slider": {
+    "description": "Auto imported from components/Slider.vue"
+  },
+  "BaseFooter": {
+    "description": "Auto imported from components/base/Footer.vue"
+  },
+  "BaseHeader": {
+    "description": "Auto imported from components/base/Header.vue"
+  }
+}

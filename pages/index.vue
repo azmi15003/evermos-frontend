@@ -7,12 +7,12 @@
       <div class="flex flex-direction-responsive" style="margin-bottom: 40px;">
         <div class="float-left category-grid">
           <div>
-            <h2>Category</h2>
+            <h2>Kategori</h2>
             <div class="pointer">
-              <p @click="filterCategory('All')">All</p>
-              <p @click="filterCategory('Men')">Men</p>
-              <p @click="filterCategory('Women')">Women</p>
-              <p @click="filterCategory('Kids')">Kids</p>
+              <p @click="filterCategory('All')">Semua</p>
+              <p @click="filterCategory('Men')">Pria</p>
+              <p @click="filterCategory('Women')">Wanita</p>
+              <p @click="filterCategory('Kids')">Anak-Anak</p>
             </div>
           </div>
           <br>
@@ -20,7 +20,7 @@
           <div class="pointer">
             <h2>Brand</h2>
             <div>
-              <p @click="filterBrand('All')">All</p>
+              <p @click="filterBrand('All')">Semua</p>
               <p @click="filterBrand('New Balance')">New Balance</p>
               <p @click="filterBrand('Adidas')">Adidas</p>
               <p @click="filterBrand('Nike')">Nike</p>

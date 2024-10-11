@@ -14,14 +14,14 @@
         <p>Info Pembayaran</p>
       </div>
       <div class="footer-item">
-        <h3>Information</h3>
+        <h3>Informasi</h3>
         <p>About Us</p>
         <p>Store Location</p>
         <p>Terms & Conditions</p>
         <p>Privacy Policy</p>
       </div>
       <div class="footer-item">
-        <h3>Need Help? Contact Us</h3>
+        <h3>Kontak Kami</h3>
         <p>hello@logo.com</p>
         <p>1500-xxx</p>
       </div>
